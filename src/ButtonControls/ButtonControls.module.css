@@ -6,4 +6,8 @@
     .buttonControls {
         margin-top: 2rem;
     }
+
+    .buttonControls {
+        width: 80%;
+    }
 }

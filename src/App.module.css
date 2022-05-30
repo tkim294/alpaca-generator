@@ -19,6 +19,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   min-height: 62vh;
+  padding: 1rem;
 }
 
 .btnGroup {
@@ -37,5 +38,9 @@
   .container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .btnGroup {
+    margin-top: 10px;
   }
 }
