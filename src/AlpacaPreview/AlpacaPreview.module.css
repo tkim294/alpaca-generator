@@ -1,0 +1,29 @@
+.preview {
+    width: var(--width-var);
+    height: var(--width-var);
+    position: relative;
+    box-shadow: 0px 0px 10px 0 rgba(61, 61, 61, 0.637);
+}
+
+.image {
+    width: var(--width-var);
+    height: var(--width-var);
+    position: absolute;
+    background: transparent;
+}
+
+.eyes {
+    z-index: 4;
+}
+
+.mouth {
+    z-index: 5;
+}
+
+.nose {
+    z-index: 4;
+}
+
+.accessories {
+    z-index: 4;
+}

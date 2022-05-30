@@ -1,0 +1,9 @@
+.buttonControls {
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .buttonControls {
+        margin-top: 2rem;
+    }
+}

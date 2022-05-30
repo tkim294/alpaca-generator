@@ -1,0 +1,41 @@
+:root {
+  --width-var: 400px;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 62vh;
+}
+
+.btnGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.alpacaPreviewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
